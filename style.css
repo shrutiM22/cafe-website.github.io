@@ -1,0 +1,154 @@
+h1{
+    text-align: center;
+    font-size: 3em;
+    color: darkgray;
+    margin: 20px;
+
+}
+
+.robots{
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.head,
+.left_arm,
+.right_arm,
+.left_leg,
+.right_leg,
+.torso{
+    background-color: cadetblue;
+}
+
+.head{
+    width: 250px;
+    height: 150px;
+    margin: 0 auto;
+    border-radius: 200px 200px 0 0;
+    margin-bottom: 10px;
+}
+
+.head:hover{
+    width: 350px;
+    transition: 1s ease-in-out;
+}
+
+.eyes{
+    display: flex;
+}
+
+.upper_body{
+    width: 370px;
+    height: 250px;
+    display: flex;
+    margin: 0 auto;
+}
+
+.left_arm, .right_arm{
+    width: 50px;
+    height: 160px;
+    border-radius: 25px;
+}
+
+.left_arm{
+    margin-right: 10px;
+}
+
+.right_arm{
+    margin-left: 10px;
+}
+
+.torso{
+    width: 250px;
+    height: 250px;
+    border-radius: 0 0 40px 40px;   
+}
+
+.lower_body{
+    width: 300px;
+    height: 150px;
+    display: flex;
+    margin: 0 auto;
+}
+
+.left_leg, .right_leg{
+    width: 50px;
+    height: 150px;
+    border-radius: 0 0 30px 30px;
+    margin: -25px;
+}
+
+.left_leg{
+    margin-left: 75px;
+}
+
+.right_leg{
+    margin-left: 70px;
+}
+
+.left_leg:hover{
+    -webkit-transform:rotate(25deg);
+    -moz-transform:rotate(25deg);
+    -o-transform:rotate(25deg);
+    -ms-transform:rotate(25deg);
+    transform: rotate(25deg);
+}
+
+.right_leg:hover{
+    -webkit-transform:rotate(25deg);
+    -moz-transform:rotate(25deg);
+    -o-transform:rotate(25deg);
+    -ms-transform:rotate(25deg);
+    transform: rotate(25deg);
+}
+
+.left_eye{
+    position: relative;
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
+    background-color: white;
+    margin-left: 60px;
+    top: 100px;
+}
+
+.right_eye{
+    position: relative;
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
+    background-color: white;
+    margin-left: 170px;
+    top: 80px;
+}
+
+.left_eye:hover{
+    background-color: cadetblue;
+    filter: brightness(60%);
+    
+}
+
+.right_eye:hover{
+    background-color: cadetblue;
+    filter: brightness(60%);
+}
+
+.left_arm:hover{
+     -webkit-transform:rotate(25deg);
+    -moz-transform:rotate(25deg);
+    -o-transform:rotate(25deg);
+    -ms-transform:rotate(25deg);
+    transform: rotate(25deg);
+    
+}
+
+.right_arm:hover{
+     -webkit-transform:rotate(160deg);
+    -moz-transform:rotate(160deg);
+    -o-transform:rotate(160deg);
+    -ms-transform:rotate(160deg);
+    transform: rotate(160deg);
+    
+}
